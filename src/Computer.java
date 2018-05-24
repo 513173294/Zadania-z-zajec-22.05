@@ -10,14 +10,10 @@ class Computer {
     }
 
 
-    String getInfo(){
-        return ("nazwa: " +this.nazwa + "\n" + ", pamiec:  " + memory.getInfoAboutMemory() + "\n" + ", procesor: " + processor.getInfoAboutProcesor() );
+    String getInfo() {
+        return ("nazwa: " + this.nazwa + "\n" + ", pamiec:  " + memory.getInfoAboutMemory() + "\n" + ", procesor: " + processor.getInfoAboutProcesor());
 
 
     }
-
-//    double increaseCpuClock(Computer computer, double x ) {
-//        computer.processor.taktowanie = computer.processor.taktowanie + x;
-//        return computer.processor.taktowanie;
-//    }
 }
+

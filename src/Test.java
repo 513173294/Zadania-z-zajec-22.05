@@ -7,11 +7,15 @@ public class Test {
         Computer hP = new Computer("HP EliteBook", pamiecHP,procHP);
         Computer acer = new Computer("Acer Z500", pamiecAcer,procArer);
 
-        System.out.println(hP.getInfo());
+        System.out.println("HP initial: " + hP.processor.taktowanie);
+        System.out.println("Acer inital: " + acer.processor.taktowanie);
         OverClock oc = new OverClock();
         oc.decreaseCpuClock(hP,2.5);
 
         System.out.println(hP.processor.taktowanie);
+
+        oc.increaseCpuClock(acer,0.5);
+        System.out.println(acer.processor.taktowanie);
 
 
 
