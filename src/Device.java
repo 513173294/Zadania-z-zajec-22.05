@@ -16,13 +16,13 @@ class Device {
         this.type = type;
         this.price = price;
     }
-    void getInfo(String code, String producer, String type) {
-        System.out.println("Kod: " + this.code + ", producent: " + this.producer + ", typ: " + this.type + ", cena: ");
+    String getInfo(String code, String producer, String type) {
+        return ("Kod: " + this.code + ", producent: " + this.producer + ", typ: " + this.type + ", cena: ");
 
     }
 
-    void getInfo(){
-        System.out.println("Kod: " +this.code + ", producent: " + this.producer + ", typ: " + this.type + ", cena: " + this.price);
+    String getInfo(){
+        return ("Kod: " +this.code + ", producent: " + this.producer + ", typ: " + this.type + ", cena: " + this.price);
 
 
     }
