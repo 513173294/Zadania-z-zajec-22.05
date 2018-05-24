@@ -1,4 +1,4 @@
-class OverClock {
+public class OverClock {
 
     double increaseCpuClock(Computer computer, double x ){
         computer.processor.taktowanie = computer.processor.taktowanie + x;

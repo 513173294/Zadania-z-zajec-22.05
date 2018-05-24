@@ -8,7 +8,10 @@ public class Test {
         Computer acer = new Computer("Acer Z500", pamiecAcer,procArer);
 
         System.out.println(hP.getInfo());
+        OverClock oc = new OverClock();
+        oc.decreaseCpuClock(hP,2.5);
 
+        System.out.println(hP.processor.taktowanie);
 
 
 
