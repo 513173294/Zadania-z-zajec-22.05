@@ -17,6 +17,10 @@ public class Test {
         oc.increaseCpuClock(acer,0.5);
         System.out.println(acer.processor.taktowanie);
 
+        ComputerAssembly cA = new ComputerAssembly();
+        Computer kombajn = cA.assembly("Asus", " Patriot", "Viper 4",3000,2,
+                "Intel ","Core i7-7820X", 3.6);
+        System.out.println(kombajn.getInfo());
 
 
 
