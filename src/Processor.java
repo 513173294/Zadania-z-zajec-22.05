@@ -10,7 +10,7 @@ class Processor {
     }
 
     String getInfoAboutProcesor(){
-        return ("\n" + " producent: " + this.producent + ", model: " + this.model + ", taktowanie: " + this.taktowanie);
+        return ("\n" + "Producent: " + this.producent + ", model: " + this.model + ", taktowanie: " + this.taktowanie);
 
 
     }
