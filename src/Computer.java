@@ -11,7 +11,8 @@ class Computer {
 
 
     String getInfo() {
-        return ("Nazwa: " + this.nazwa + "\n" + "Pamiec:  " + memory.getInfoAboutMemory() + "\n" + "Procesor: " + processor.getInfoAboutProcesor());
+        return ("Nazwa: " + this.nazwa + "\n" + "Pamiec:  " + memory.getInfoAboutMemory() + "\n"
+                + "Procesor: " + processor.getInfoAboutProcesor());
 
 
     }
