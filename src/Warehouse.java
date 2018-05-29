@@ -5,7 +5,7 @@ public class Warehouse {
         Device device3 = new Device("Playstation 4", "Sony", "Smatyphone", 1899.99); //code, producer, type, price
 
 
-        String allDevices = device1.getInfo() + "\n" + device2.getInfo() + "\n" + device3.getInfo();
+        String allDevices = device1.getInfo(device1) + "\n" + device2.getInfo(device2) + "\n" + device3.getInfo(device3);
         System.out.println(allDevices);
     }
 }
